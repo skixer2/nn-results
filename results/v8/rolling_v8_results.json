@@ -1,0 +1,146 @@
+{
+  "version": "v8_unified",
+  "variant": "v8",
+  "seeds": [
+    1,
+    7,
+    99,
+    314,
+    888
+  ],
+  "hidden_size": 64,
+  "threshold": 0.0,
+  "trade_penalty": 0.0,
+  "features": [
+    "log_return_z",
+    "past_action",
+    "regret",
+    "atr",
+    "log_volume_z",
+    "hour_sin",
+    "hour_cos",
+    "mom_5",
+    "mom_20",
+    "mom_40",
+    "atr_20",
+    "bb_position",
+    "rsi_14"
+  ],
+  "initial_candles": 284305,
+  "learning_rate": 0.0003,
+  "num_epochs": 25,
+  "retrain_window_days": 20,
+  "gaps": [
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "force_close": false,
+  "windows": [
+    {
+      "window": 1,
+      "gap": 100,
+      "range": "2026-01-27 01:40:00 \u2192 2026-02-11 01:40:00",
+      "days": 15.0,
+      "starting_eq": 1.0,
+      "gain_in_window_pct": -5.72,
+      "final_equity": 0.9428487552713052,
+      "trades": 3,
+      "carried_position": "LONG",
+      "seeds": [
+        1,
+        7,
+        99,
+        314,
+        888
+      ],
+      "threshold": 0.0,
+      "trade_penalty": 0.0
+    },
+    {
+      "window": 2,
+      "gap": 100,
+      "range": "2026-02-11 03:20:00 \u2192 2026-02-26 03:20:00",
+      "days": 15.0,
+      "starting_eq": 0.9428487552713052,
+      "gain_in_window_pct": -2.96,
+      "final_equity": 0.9149265018475703,
+      "trades": 12,
+      "carried_position": "LONG",
+      "seeds": [
+        1,
+        7,
+        99,
+        314,
+        888
+      ],
+      "threshold": 0.0,
+      "trade_penalty": 0.0
+    },
+    {
+      "window": 3,
+      "gap": 100,
+      "range": "2026-02-26 05:00:00 \u2192 2026-03-13 05:00:00",
+      "days": 15.0,
+      "starting_eq": 0.9149265018475703,
+      "gain_in_window_pct": -7.58,
+      "final_equity": 0.8455754794750919,
+      "trades": 6,
+      "carried_position": "FLAT",
+      "seeds": [
+        1,
+        7,
+        99,
+        314,
+        888
+      ],
+      "threshold": 0.0,
+      "trade_penalty": 0.0
+    },
+    {
+      "window": 4,
+      "gap": 100,
+      "range": "2026-03-13 06:40:00 \u2192 2026-03-28 06:40:00",
+      "days": 15.0,
+      "starting_eq": 0.8455754794750919,
+      "gain_in_window_pct": -0.19,
+      "final_equity": 0.8439958269563865,
+      "trades": 3,
+      "carried_position": "FLAT",
+      "seeds": [
+        1,
+        7,
+        99,
+        314,
+        888
+      ],
+      "threshold": 0.0,
+      "trade_penalty": 0.0
+    },
+    {
+      "window": 5,
+      "gap": 100,
+      "range": "2026-03-28 08:20:00 \u2192 2026-04-12 08:20:00",
+      "days": 15.0,
+      "starting_eq": 0.8439958269563865,
+      "gain_in_window_pct": 2.03,
+      "final_equity": 0.8611564472027842,
+      "trades": 5,
+      "carried_position": "FLAT",
+      "seeds": [
+        1,
+        7,
+        99,
+        314,
+        888
+      ],
+      "threshold": 0.0,
+      "trade_penalty": 0.0
+    }
+  ],
+  "final_equity": 0.8611564472027842,
+  "btc_hold": 0.9070320722356399,
+  "trade_period_bh": -0.19106493823229542
+}
